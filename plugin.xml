@@ -9,7 +9,7 @@
     <engine name="cordova" version=">=7.1.0"/>
     <engine name="cordova-android" version=">=6.3.0"/>
   </engines>
-  <dependency id="cordova-plugin-vibration" version="^3.0.1" />
+  <dependency id="cordova-plugin-vibration" version="3.0.1" />
 	
 	
   <js-module src="www/cronapp-mobile.js" name="CronAppCordovaFrameworkPlugin">
