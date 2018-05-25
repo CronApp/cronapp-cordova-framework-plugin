@@ -1,12 +1,10 @@
 {
   "name": "cronapp-cordova-framework-plugin",
   "version": "1.0.0",
-  "description": "You can use the CronAppPlugin plugin to update CronApp Mobile App.",
+  "description": "You can use the CronAppCordovaFrameworkPlugin plugin to update CronApp Mobile App.",
   "cordova": {
     "id": "cronapp-cordova-framework-plugin",
     "platforms": [
-      "ios",
-      "android"
     ]
   },
   "repository": {

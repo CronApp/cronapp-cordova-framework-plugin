@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:rim="http://www.blackberry.com/ns/widgets" id="cronapp-cordova-framework-plugin" version="1.0.0">
-  <name>BarcodeScanner</name>
+  <name>CronAppCordovaFrameworkPlugin</name>
   <description>You can use the CronAppPlugin plugin to update CronApp Mobile App.</description>
   <license>MIT</license>
   <repo>https://github.com/cronapp/cronapp-cordova-framework-plugin.git</repo>
@@ -9,7 +9,7 @@
     <engine name="cordova" version=">=7.1.0"/>
     <engine name="cordova-android" version=">=6.3.0"/>
   </engines>
-  <js-module src="www/cronapp-mobile.js" name="CronappCrodovaPlugin">
-    <clobbers target="cordova.plugins.cronappcordovaplugin"/>
+  <js-module src="www/cronapp-mobile.js" name="CronAppCordovaFrameworkPlugin">
+    <clobbers target="cordova.plugins.cronappcordovaframeworkplugin"/>
   </js-module>
 </plugin>
